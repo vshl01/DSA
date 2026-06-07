@@ -1,0 +1,21 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "Data Structures & Algorithms practice in TypeScript",
+  "type": "commonjs",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "run": "node"
+  },
+  "keywords": [
+    "dsa",
+    "algorithms",
+    "data-structures",
+    "typescript"
+  ],
+  "author": "Vishal Vishwakarma",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

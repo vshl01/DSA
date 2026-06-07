@@ -1,0 +1,24 @@
+# --- Node / TypeScript ---
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+
+# --- Rust ---
+target/
+debug/
+**/*.rs.bk
+Cargo.lock
+
+# --- Compiled binaries (from `rustc file.rs`, `g++`, etc.) ---
+*.out
+*.o
+*.exe
+a.out
+
+# --- Editor / OS ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
