@@ -39,6 +39,7 @@ function merge(arr: number[], low: number, mid: number, high: number) {
     tempArray.push(arr[right]!);
     right++;
   }
+
   for (let i = low; i <= high; i++) {
     arr[i] = tempArray[i - low]!;
   }
